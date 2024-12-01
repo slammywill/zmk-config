@@ -33,7 +33,7 @@
                         bindings = <
    &kp TAB &trans &trans &trans &trans &trans        &trans &trans   &trans     &trans     &trans    &trans 
    &trans  &trans &trans &trans &trans &trans        &trans &kp LEFT &kp DOWN   &kp UP     &kp RIGHT &trans 
-   &trans  &trans &trans &trans &trans &trans        &trans &trans   &kp C_PREV &kp C_NEXT &kp C_PP  &trans 
+   &trans  &trans &trans &trans &trans &trans        &trans &trans   &kp K_PREV &kp K_NEXT &kp K_PP  &trans 
                          &trans &trans &trans        &trans &trans   &trans
                         >;
                 };
