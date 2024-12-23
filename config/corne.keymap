@@ -20,7 +20,7 @@
                    &mo 1 &kp SPACE &kp LGUI         &kp LSHFT &kp BSPC &mo 2
                         >;
                 };
-                lower_layer {
+                1 {
                         bindings = <
    &kp GRAVE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT        &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR &kp BSLH
    &studio_unlock    &kp N1   &kp N2 &kp N3   &kp N4   &kp N5           &kp N6    &kp N7   &kp N8    &kp N9   &kp N0   &trans
@@ -29,7 +29,39 @@
                         >;
                 };
 
-                raise_layer {
+                2 {
+                        bindings = <
+   &kp TAB &trans &trans &trans &trans &trans        &trans &trans   &trans     &trans     &trans    &trans 
+   &trans  &trans &trans &trans &trans &trans        &trans &kp LEFT &kp DOWN   &kp UP     &kp RIGHT &trans 
+   &trans  &trans &trans &trans &trans &trans        &trans &trans   &kp C_PREV &kp C_NEXT &kp K_PP  &trans 
+                         &trans &trans &trans        &trans &trans   &trans
+                        >;
+                };
+                3 {
+                        bindings = <
+   &kp TAB &trans &trans &trans &trans &trans        &trans &trans   &trans     &trans     &trans    &trans 
+   &trans  &trans &trans &trans &trans &trans        &trans &kp LEFT &kp DOWN   &kp UP     &kp RIGHT &trans 
+   &trans  &trans &trans &trans &trans &trans        &trans &trans   &kp C_PREV &kp C_NEXT &kp K_PP  &trans 
+                         &trans &trans &trans        &trans &trans   &trans
+                        >;
+                };
+                4 {
+                        bindings = <
+   &kp TAB &trans &trans &trans &trans &trans        &trans &trans   &trans     &trans     &trans    &trans 
+   &trans  &trans &trans &trans &trans &trans        &trans &kp LEFT &kp DOWN   &kp UP     &kp RIGHT &trans 
+   &trans  &trans &trans &trans &trans &trans        &trans &trans   &kp C_PREV &kp C_NEXT &kp K_PP  &trans 
+                         &trans &trans &trans        &trans &trans   &trans
+                        >;
+                };
+                5 {
+                        bindings = <
+   &kp TAB &trans &trans &trans &trans &trans        &trans &trans   &trans     &trans     &trans    &trans 
+   &trans  &trans &trans &trans &trans &trans        &trans &kp LEFT &kp DOWN   &kp UP     &kp RIGHT &trans 
+   &trans  &trans &trans &trans &trans &trans        &trans &trans   &kp C_PREV &kp C_NEXT &kp K_PP  &trans 
+                         &trans &trans &trans        &trans &trans   &trans
+                        >;
+                };
+                6 {
                         bindings = <
    &kp TAB &trans &trans &trans &trans &trans        &trans &trans   &trans     &trans     &trans    &trans 
    &trans  &trans &trans &trans &trans &trans        &trans &kp LEFT &kp DOWN   &kp UP     &kp RIGHT &trans 
